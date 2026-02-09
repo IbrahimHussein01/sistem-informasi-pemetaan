@@ -3,18 +3,18 @@
 Sistem informasi pemetaan berbasis web menggunakan **Leaflet.js** untuk menampilkan lokasi dan informasi geografis secara interaktif.
 
 ## Fitur Utama
-- Peta interaktif (Leaflet.js)
-- Marker lokasi dinamis
-- Detail informasi lokasi
-- Sistem admin & user
-- Manajemen data berbasis PHP & MySQL
+1. Peta interaktif (Leaflet.js)
+2. Marker lokasi dinamis
+3. Detail informasi lokasi
+4. Sistem admin & user
+5. Manajemen data berbasis PHP & MySQL
 
 ## Teknologi
-- PHP Native
-- MySQL
-- Leaflet.js
-- JavaScript
-- HTML & CSS
+1. PHP Native
+2. MySQL
+3. Leaflet.js
+4. JavaScript
+5. HTML & CSS
 
 ## Instalasi
 1. Clone repository
