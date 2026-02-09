@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    overflow: hidden;
+}
+#main2{
+    transition: margin-left .5s;
+    background-color: #f1f4f5;
+    margin-left: 220px;
+    height: 100%;
+    max-width: 100%; 
+    height: calc(100vh - 50px); 
+    padding: 20px;
+    margin-top: 50px;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    flex-shrink: 0;
+    background:rgb(255, 255, 255);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 0.4rem 0.4rem 1rem #ddd;
+    box-shadow: 0.4rem 0.4rem 1rem #ddd;
+    z-index: 99999;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: large;
+}
+.vr {
+    border-left: 2px solid #ccc;
+    height: 35px;
+}
+
+span, i{
+    padding: 10px; 
+    font-size: 12px;
+}
+/* Sidebar */
+.sidenav {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #414a4c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Padding atas diperbesar */
+    z-index: 10;
+}
+
+.sidenav h6 {
+    margin-top: 10px;
+    font-size: 14px; /* Ukuran font judul sidebar diperkecil */
+    font-weight: 600; /* Tebalkan judul */
+    text-align: center;
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.sidenav .icon-a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding menu */
+    display: block;
+    font-size: 13px; /* Ukuran font menu diperkecil */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+.sidenav .icon-a i {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    font-size: 14px; /* Ukuran ikon */
+}
+
+.sidenav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px; /* Border radius saat hover */
+    padding-left: 20px; /* Geser teks ke kanan saat hover */
+}
+
+.sidenav .mt-auto {
+    margin-top: auto; /* Pindahkan bagian footer ke bawah */
+    padding: 15px 0; /* Padding footer */
+    text-align: center;
+    font-size: 12px; /* Ukuran font footer diperkecil */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Garis pemisah footer */
+}
+/* CSS untuk dropdown */
+.search-container {
+    margin-right: auto; /* Dorong search bar ke kiri */
+}
+
+.dropdown {
+    margin-left: auto; /* Dorong dropdown ke kanan */
+}
+.dropdown-select option[value=""] {
+    color: gray;
+}
+#search {
+    width: 230px; /* Lebar yang sama dengan dropdown */
+    padding: 8px 12px; /* Padding yang sama */
+    font-size: 14px; /* Ukuran font yang sama */
+    font-family: 'Poppins', sans-serif; /* Font yang sama */
+    border: 1px solid #ccc; /* Border yang sama */
+    border-radius: 8px; /* Sudut melengkung yang sama */
+    background-color: white; /* Warna latar belakang yang sama */
+    appearance: none; /* Hilangkan tampilan default browser */
+    -webkit-appearance: none; /* Untuk browser berbasis WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Untuk browser berbasis Mozilla (Firefox) */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+/* Gaya untuk dropdown */
+.dropdown-select {
+    width: 230px; /* Lebar yang sama dengan search bar */
+    padding: 8px 12px; /* Padding yang sama */
+    font-size: 14px; /* Ukuran font yang sama */
+    font-family: 'Poppins', sans-serif; /* Font yang sama */
+    border: 1px solid #ccc; /* Border yang sama */
+    border-radius: 8px; /* Sudut melengkung yang sama */
+    background-color: white; /* Warna latar belakang yang sama */
+    appearance: none; /* Hilangkan tampilan default browser */
+    -webkit-appearance: none; /* Untuk browser berbasis WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Untuk browser berbasis Mozilla (Firefox) */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M7 10l5 5 5-5z"/></svg>'); /* Ikon panah */
+    background-repeat: no-repeat;
+    background-position: right 12px center; /* Posisi ikon panah */
+    background-size: 16px; /* Ukuran ikon panah */
+    cursor: pointer; /* Ubah kursor saat dihover */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+/* Hover dan Focus untuk search bar dan dropdown */
+#search:hover,
+.dropdown-select:hover {
+    border-color: #3b69da; /* Warna border saat dihover */
+}
+
+#search:focus,
+.dropdown-select:focus {
+    outline: none; /* Hilangkan outline saat focus */
+    border-color: #3b69da; /* Warna border saat focus */
+    box-shadow: 0 0 8px rgba(59, 105, 218, 0.3); /* Efek glow saat focus */
+}
+
+/* peta */
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px; /* Margin luar untuk parent container */
+    
+}
+
+.container-up {
+    background-color:#f7f9fb; /* Warna background */
+    border-radius: 5px 5px 0 0; /* Radius sudut atas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Lebar penuh */
+    padding: 5px; /* Padding dalam */
+    border-bottom: 1px solid #ddd; /* Garis pembatas bawah */
+}
+.container-up h4 {
+    color: #414a4c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+    margin: 0; /* Hilangkan margin default */
+}
+.container-right {
+    display: flex;
+    flex-direction: column; /* Susun elemen dalam kolom */
+    width: 100%;
+    height: 480px; /* Sesuaikan dengan tinggi navbar dan padding */
+    padding: 10px;
+    background: white;
+    border-radius: 0 0 5px 5px; /* Radius sudut bawah */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.custom-popup {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 14px;
+    padding: 1px; /* Padding popup agar tidak terlalu lebar */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.custom-popup b {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    margin-bottom: 3px; /* Jarak antara nama produk dan latitude */
+}
+
+.custom-popup span {
+    text-align: left; /* Teks di-align ke kiri */
+    font-size: 12px;
+    color: #555;
+    display: block;
+    margin-bottom: 0; /* Menghilangkan margin bawah agar latitude dan longitude sangat rapat */
+    line-height: 0; /* Mengurangi line-height agar teks lebih rapat */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Membuat gambar berada di tengah secara horizontal */
+    align-items: center; /* Menjaga gambar tetap sejajar */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.popup-image {
+    display: block; /* Pastikan gambar menjadi blok agar tidak terpengaruh elemen lain */
+    border-radius: 5px;
+    max-width: 150px; /* Maksimum lebar gambar */
+    height: auto; /* Tinggi menyesuaikan */
+    margin: 0 auto; /* Tambahkan margin auto untuk memastikan posisi tengah */
+}
+
+
+.detail-link {
+    display: block; /* Detail link di-block agar tidak inline */
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5px; /* Jarak antara gambar dan detail link */
+    text-align: center; /* Mengatur teks "Lihat Detail" agar berada di tengah */
+}
+
+.detail-link:hover {
+    text-decoration: underline;
+}
+
+.direction-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Sesuaikan ukuran lingkaran */
+    height: 30px;
+    border-radius: 50%;
+    background-color: white; /* Warna latar */
+    border: 1px solid #ccc; /* Warna border */
+    color: #007bff; /* Warna ikon */
+    font-size: 26px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.direction-icon:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* Sidebar Collapse Logic */
+.sidenav.collapsed {
+    width: 60px;
+}
+
+.sidenav.collapsed h6,
+.sidenav.collapsed .icon-a span {
+    display: none;
+}
+
+#main2.collapsed {
+    margin-left: 60px;
+}
+
+.navbar {
+    left: 220px;
+    width: calc(100% - 220px);
+}
+
+.navbar.collapsed {
+    left: 60px;
+    width: calc(100% - 60px);
+}
+
+@media (max-width: 768px) {
+    .sidenav {
+        width: 60px;
+    }
+
+    .sidenav.collapsed {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .sidenav .icon-a {
+        justify-content: center;
+        padding: 12px 0;
+    }
+
+    .sidenav .icon-a i {
+        margin: 0;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sidenav h6,
+    .sidenav .icon-a span {
+        display: none;
+    }
+
+    #main2 {
+        margin-left: 60px;
+        transition: margin-left 0.3s ease;
+    }
+
+    .navbar {
+        left: 60px;
+        width: calc(100% - 60px);
+    }
+
+    .navbar.collapsed {
+        left: 0;
+        width: 100%;
+    }
+
+    #main2.collapsed {
+        margin-left: 0;
+    }
+     #currentDateTime {
+        display: none !important;
+    }
+}
+
+
+#sidebarToggle {
+    background: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.5); /* warna ikon agak pudar */
+    transition: color 0.3s, background 0.3s;
+}
+
+#sidebarToggle:hover {
+    color: #000; /* lebih gelap saat hover */
+    background: rgba(0, 0, 0, 0.05); /* efek latar saat hover */
+    border-radius: 4px;
+}
+
+/* Saat collapsed (responif), pusatkan ikon */
+.sidenav.collapsed .icon-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0; /* sesuaikan jika perlu */
+}
+
+.sidenav.collapsed .icon-a i {
+    margin: 0; /* hilangkan margin kanan default */
+    font-size: 18px; /* pastikan ukurannya pas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .dropdown, .search-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .dropdown-select, #search {
+        width: 100% !important;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #map {
+        width: 100%;
+        height: 400px; /* atau auto sesuai kebutuhan */
+    }
+}
+@media (max-width: 768px) {
+    #main2 {
+        flex-direction: column;
+    }
+
+    .parent-container{
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    #currentDateTime {
+        display: none !important;
+    }
+}

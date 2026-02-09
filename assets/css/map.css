@@ -1,0 +1,362 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav i {
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* Hover underline animation */
+.navbar-nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.navbar-nav a:hover::after {
+    width: 50%;
+}
+
+.navbar-nav a:hover {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Active menu */
+.navbar-nav a.active {
+    font-weight: 700;
+    color: #007bff;
+}
+
+.btn-login {
+    margin-left: auto;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.search-container {
+    margin-right: auto; /* Dorong search bar ke kiri */
+    margin-top: 10px; /* Margin atas */
+    margin-left: 30px; /* Margin kiri */
+    margin-right: 10px; /* Margin kanan */
+}
+
+/* CSS untuk dropdown */
+.dropdown {
+    margin-left: auto; /* Dorong dropdown ke kanan */
+    margin-top: 10px; /* Margin atas */
+    margin-left: 10px; /* Margin kiri */
+    margin-right: 30px; /* Margin kanan */
+}
+
+.dropdown-select option[value=""] {
+    color: gray;
+}
+#search {
+    width: 230px; /* Lebar yang sama dengan dropdown */
+    padding: 8px 12px; /* Padding yang sama */
+    font-size: 14px; /* Ukuran font yang sama */
+    font-family: 'Poppins', sans-serif; /* Font yang sama */
+    border: 1px solid #ccc; /* Border yang sama */
+    border-radius: 8px; /* Sudut melengkung yang sama */
+    background-color: white; /* Warna latar belakang yang sama */
+    appearance: none; /* Hilangkan tampilan default browser */
+    -webkit-appearance: none; /* Untuk browser berbasis WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Untuk browser berbasis Mozilla (Firefox) */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+/* Gaya untuk dropdown */
+.dropdown-select {
+    width: 230px; /* Lebar yang sama dengan search bar */
+    padding: 8px 12px; /* Padding yang sama */
+    font-size: 14px; /* Ukuran font yang sama */
+    font-family: 'Poppins', sans-serif; /* Font yang sama */
+    border: 1px solid #ccc; /* Border yang sama */
+    border-radius: 8px; /* Sudut melengkung yang sama */
+    background-color: white; /* Warna latar belakang yang sama */
+    appearance: none; /* Hilangkan tampilan default browser */
+    -webkit-appearance: none; /* Untuk browser berbasis WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Untuk browser berbasis Mozilla (Firefox) */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M7 10l5 5 5-5z"/></svg>'); /* Ikon panah */
+    background-repeat: no-repeat;
+    background-position: right 12px center; /* Posisi ikon panah */
+    background-size: 16px; /* Ukuran ikon panah */
+    cursor: pointer; /* Ubah kursor saat dihover */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+/* Hover dan Focus untuk search bar dan dropdown */
+#search:hover,
+.dropdown-select:hover {
+    border-color: #3b69da; /* Warna border saat dihover */
+}
+
+#search:focus,
+.dropdown-select:focus {
+    outline: none; /* Hilangkan outline saat focus */
+    border-color: #3b69da; /* Warna border saat focus */
+    box-shadow: 0 0 8px rgba(59, 105, 218, 0.3); /* Efek glow saat focus */
+}
+
+/* peta */
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px; /* Margin luar untuk parent container */
+    
+}
+.container-up {
+    background-color:#f7f9fb; /* Warna background */
+    border-radius: 5px 5px 0 0; /* Radius sudut atas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Lebar penuh */
+    padding: 5px; /* Padding dalam */
+    border-bottom: 1px solid #ddd; /* Garis pembatas bawah */
+}
+.container-up h4 {
+    color: #414a4c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+    margin: 0; /* Hilangkan margin default */
+}
+.container-right {
+    display: flex;
+    flex-direction: column; /* Susun elemen dalam kolom */
+    width: 100%;
+    height: 480px; /* Sesuaikan dengan tinggi navbar dan padding */
+    padding: 10px;
+    background: white;
+    border-radius: 0 0 5px 5px; /* Radius sudut bawah */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    width: 95.5%;
+    height: 510px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#peta h3{
+    margin: 50px 30px 20px 30px;
+}
+.custom-popup {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 14px;
+    padding: 1px; /* Padding popup agar tidak terlalu lebar */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.custom-popup b {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    margin-bottom: 3px; /* Jarak antara nama produk dan latitude */
+}
+
+.custom-popup span {
+    text-align: left; /* Teks di-align ke kiri */
+    font-size: 12px;
+    color: #555;
+    display: block;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Membuat gambar berada di tengah secara horizontal */
+    align-items: center; /* Menjaga gambar tetap sejajar */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.popup-image {
+    display: block; /* Pastikan gambar menjadi blok agar tidak terpengaruh elemen lain */
+    border-radius: 5px;
+    max-width: 150px; /* Maksimum lebar gambar */
+    height: auto; /* Tinggi menyesuaikan */
+    margin: 0 auto; /* Tambahkan margin auto untuk memastikan posisi tengah */
+}
+
+
+.detail-link {
+    display: block; /* Detail link di-block agar tidak inline */
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5px; /* Jarak antara gambar dan detail link */
+    text-align: center; /* Mengatur teks "Lihat Detail" agar berada di tengah */
+}
+
+.detail-link:hover {
+    text-decoration: underline;
+}
+
+.direction-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Sesuaikan ukuran lingkaran */
+    height: 30px;
+    border-radius: 50%;
+    background-color: white; /* Warna latar */
+    border: 1px solid #ccc; /* Warna border */
+    color: #007bff; /* Warna ikon */
+    font-size: 26px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.direction-icon:hover {
+    background-color: #e0e0e0;
+}
+/* TOGGLE DEFAULT - TIDAK TAMPIL KECUALI DI LAYAR KECIL */
+.navbar-toggle {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 3000;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.navbar-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .navbar-brand,
+    .navbar-collapse,
+    .btn-login {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.show {
+        display: flex !important;
+        flex-direction: column;
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+        padding: 15px;
+        z-index: 2999;
+    }
+
+    .navbar-collapse.show .nav-link {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 992px) {
+    #map {
+        width: 100vw;        /* Full lebar layar */
+        height: 80vh;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .search-container,
+    .dropdown {
+        width: 100%;
+        margin: 5px 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 10px;
+    }
+    h3 {
+        margin-top: -30px !important;
+        font-size: 1.25rem;
+    }
+}
+

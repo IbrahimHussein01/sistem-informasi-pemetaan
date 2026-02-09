@@ -1,0 +1,732 @@
+{
+    "Aceh": {
+        "Kabupaten Aceh Barat": [
+            "Johan Pahlawan", "Samatiga", "Bubon", "Arongan Lambalek", "Woyla", 
+            "Woyla Barat", "Woyla Timur", "Kaway XVI", "Meureubo", "Pante Ceureumen", 
+            "Panton Reu", "Sungai Mas"
+        ],
+        "Kabupaten Aceh Barat Daya": [
+            "Blangpidie", "Tangan-Tangan", "Manggeng", "Susoh", "Kuala Batee", 
+            "Babah Rot", "Setia", "Jeumpa", "Lembah Sabil"  
+        ],
+        "Kabupaten Aceh Besar": [
+            "Baitussalam", "Blang Bintang", "Darul Imarah", "Darul Kamal", "Darussalam", 
+            "Indrapuri", "Ingin Jaya", "Kota Jantho", "Krueng Barona Jaya", "Kuta Baro", 
+            "Kuta Cot Glie", "Kuta Malaka", "Lembah Seulawah", "Leupung", "Lhoknga", 
+            "Lhoong", "Mesjid Raya", "Montasik", "Peukan Bada", "Pulo Aceh", 
+            "Seulimeum", "Simpang Tiga", "Suka Makmur"
+        ],
+        "Kabupaten Aceh Jaya": [
+            "Teunom", "Krueng Sabee", "Setia Bhakti", "Sampoiniet", "Jaya", 
+            "Panga", "Indra Jaya", "Darul Hikmah", "Pasie Raya"     
+        ],
+        "Kabupaten Aceh Selatan": [
+            "Bakongan", "Bakongan Timur", "Kluet Utara", "Kluet Selatan", "Kluet Tengah", 
+            "Kluet Timur", "Kota Bahagia", "Labuhan Haji", "Labuhan Haji Timur", 
+            "Labuhan Haji Barat", "Meukek", "Pasie Raja", "Sama Dua", "Sawang", 
+            "Tapak Tuan", "Trumon", "Trumon Tengah", "Trumon Timur"
+        ],
+        "Kabupaten Aceh Singkil": [
+            "Danau Paris", "Gunung Meriah", "Kota Baharu", "Kuala Baru", "Pulau Banyak", 
+            "Pulau Banyak Barat", "Simpang Kanan", "Singkil", "Singkil Utara", 
+            "Singkohor", "Suro Makmur"
+        ],
+        "Kabupaten Aceh Tamiang": [
+            "Banda Mulia", "Bandar Pusaka", "Bendahara", "Karang Baru", 
+            "Kejuruan Muda", "Kota Kuala Simpang", "Manyak Payed", 
+            "Rantau", "Sekerak", "Seruway", "Tamiang Hulu", "Tenggulun"
+        ],
+        "Kabupaten Aceh Tengah": [
+            "Atu Lintang", "Bebesen", "Bies", "Bintang", "Celala", 
+            "Jagong Jeget", "Kebayakan", "Ketol", "Kute Panang", 
+            "Laut Tawar", "Linge", "Pegasing", "Rusip Antara", "Silih Nara"
+        ],
+        "Kabupaten Aceh Tenggara": [
+            "Babul Makmur", "Babul Rahmah", "Babussalam", "Badar", "Bambel", 
+            "Bukit Tusam", "Darul Hasanah", "Deleng Pokhkisen", "Ketambe", 
+            "Lawe Alas", "Lawe Bulan", "Lawe Sigala-Gala", "Lawe Sumur", 
+            "Leuser", "Semadam", "Tanoh Alas"
+        ],
+        "Kabupaten Aceh Timur": [
+            "Banda Alam", "Birem Bayeun", "Darul Aman", "Darul Falah",
+            "Darul Ihsan", "Idi Rayeuk", "Idi Timur", "Idi Tunong",
+            "Indra Makmur", "Julok", "Madat", "Nurussalam",
+            "Pante Bidari", "Peudawa", "Peunaron", "Peureulak",
+            "Peureulak Timur", "Peureulak Barat", "Rantau Selamat",
+            "Ranto Peureulak", "Serbajadi", "Simpang Jernih",
+            "Simpang Ulim", "Sungai Raya"
+        ],
+        "Kabupaten Aceh Utara": [
+            "Samudera", "Syamtalira Aron", "Tanah Luas", "Tanah Pasir",
+            "Baktiya", "Baktiya Barat", "Lhoksukon", "Matangkuli",
+            "Cot Girek", "Tanah Jambo Aye", "Langkahan", "Seunuddon",
+            "Lapang", "Muara Batu", "Dewantara", "Paya Bakong",
+            "Nibong", "Sawang", "Geureudong Pase", "Meurah Mulia"
+        ],
+        "Kabupaten Bener Meriah": [
+            "Bandar", "Bener Kelipah", "Bukit", "Gajah Putih",
+            "Mesidah", "Permata", "Pintu Rime Gayo", "Syiah Utama",
+            "Timang Gajah", "Wih Pesam"
+        ],
+        "Kabupaten Bireuen": [
+            "Gandapura", "Jangka", "Jeumpa", "Jeunieb", "Juli",
+            "Kota Juang", "Kuala", "Kuta Blang", "Makmur", "Pandrah",
+            "Peudada", "Peulimbang", "Peusangan", "Peusangan Selatan",
+            "Peusangan Siblah Krueng", "Samalanga", "Simpang Mamplam"
+        ],
+        "Kabupaten Gayo Lues": [
+            "Blangkejeren", "Dabun Gelang", "Blang Pegayon", "Kuta Panjang",
+            "Rikit Gaib", "Terangun", "Pining", "Putri Betung",
+            "Blang Jerango", "Tripe Jaya", "Pantan Cuaca"
+        ],
+        "Kabupaten Nagan Raya": [
+            "Beutong", "Beutong Ateuh Banggalang", "Darul Makmur", "Kuala", "Kuala Pesisir",
+            "Seunagan", "Seunagan Timur", "Suka Makmue", "Tadu Raya", "Tripa Makmur"
+        ],
+        "Kabupaten Pidie": [
+            "Batee", "Delima", "Geumpang", "Glumpang Baro", "Glumpang Tiga", "Grong-Grong",
+            "Indrajaya", "Keumala", "Kembang Tanjong", "Mane", "Mila", "Muara Tiga",
+            "Mutiara", "Mutiara Timur", "Padang Tiji", "Peukan Baro", "Pidie",
+            "Sakti", "Simpang Tiga", "Tangse", "Tiro", "Titeue"
+        ],
+        "Kabupaten Pidie Jaya": [
+            "Bandar Baru", "Bandar Dua", "Jangka Buya", "Meurah Dua", "Meureudu",
+            "Panteraja", "Trienggadeng", "Ulim"
+        ],
+        "Kabupaten Simeulue": [
+            "Alafan", "Salang", "Simeulue Barat", "Simeulue Cut", "Simeulue Tengah",
+            "Simeulue Timur", "Teluk Dalam", "Teupah Barat", "Teupah Selatan", "Teupah Tengah"
+        ],
+        "Kota Banda Aceh": [
+            "Baiturrahman", "Banda Raya", "Jaya Baru",
+            "Kuta Alam", "Kuta Raja", "Lueng Bata",
+            "Meuraxa", "Syiah Kuala", "Ulee Kareng"
+        ],
+        "Kota Lhokseumawe": [
+            "Banda Sakti", "Blang Mangat", "Muara Dua", "Muara Satu"
+        ],
+        "Kota Sabang": [
+            "Sukajaya", "Sukakarya"
+        ],
+        "Kota Subulussalam": [
+            "Longkib", "Penanggalan", "Rundeng", "Simpang Kiri", "Sultan Daulat"
+        ]
+    },
+    "Sumatera Utara": {
+        "Kabupaten Asahan": [],
+        "Kabupaten Batu Bara": [],
+        "Kabupaten Dairi": [],
+        "Kabupaten Deli Serdang": [],
+        "Kabupaten Humbang Hasundutan": [],
+        "Kabupaten Karo": [],
+        "Kabupaten Labuhanbatu": [],
+        "Kabupaten Labuhanbatu Selatan": [],
+        "Kabupaten Labuhanbatu Utara": [],
+        "Kabupaten Langkat": [],
+        "Kabupaten Mandailing Natal": [],
+        "Kabupaten Nias": [],
+        "Kabupaten Nias Barat": [],
+        "Kabupaten Nias Selatan": [],
+        "Kabupaten Nias Utara": [],
+        "Kabupaten Padang Lawas": [],
+        "Kabupaten Padang Lawas Utara": [],
+        "Kabupaten Pakpak Bharat": [],
+        "Kabupaten Samosir": [],
+        "Kabupaten Serdang Bedagai": [],
+        "Kabupaten Simalungun": [],
+        "Kabupaten Tapanuli Selatan": [],
+        "Kabupaten Tapanuli Tengah": [],
+        "Kabupaten Tapanuli Utara": [],
+        "Kabupaten Toba": [],
+        "Kota Binjai": [],
+        "Kota Gunungsitoli": [],
+        "Kota Medan": [],
+        "Kota Padang Sidempuan": [],
+        "Kota Pematangsiantar": [],
+        "Kota Sibolga": [],
+        "Kota Tanjungbalai": [],
+        "Kota Tebing Tinggi": []
+    },
+    "Sumatera Barat": {
+        "Kabupaten Agam": [
+            "Banuhampu", "Baso", "Candung", "IV Angkek", "IV Koto", "Kamang Magek", 
+            "Lubuk Basung", "Malalak", "Matur", "Palembayan", "Palupuh", "Sungai Pua", 
+            "Tanjung Mutiara", "Tanjung Raya", "Tilatang Kamang", "IV Nagari"
+        ],
+        "Kabupaten Dharmasraya": [
+            "Koto Baru", "Pulau Punjung", "Sitiung", "Sungai Rumbai", "Asam Jujuhan",
+            "Koto Besar", "Koto Salak", "Padang Laweh", "Sembilan Koto", "Timpeh", "Tiumang"
+        ],
+        "Kabupaten Kepulauan Mentawai": [
+            "Pagai Selatan", "Pagai Utara", "Siberut Selatan", "Siberut Utara", 
+            "Siberut Barat", "Siberut Barat Daya", "Siberut Tengah", "Sikakap", "Sipora Selatan", "Sipora Utara"
+        ],
+        "Kabupaten Lima Puluh Kota": [
+            "Harau", "Kapur IX", "Lareh Sago Halaban", "Luak", "Mungka", "Pangkalan Koto Baru",
+            "Payakumbuh", "Situjuh Lima Nagari", "Suliki", "Akabiluru", "Bukik Barisan", "Guguak", "Gunuang Omeh"
+        ],
+        "Kabupaten Padang Pariaman": [
+            "Batang Gasan", "Enam Lingkung", "IV Koto Aur Malintang", "Lubuk Alung",
+            "Nan Sabaris", "Padang Sago", "Patamuan", "Sintuk Toboh Gadang", "Batang Anai",
+            "Sungai Geringging", "Sungai Limau", "Ulakan Tapakis", "V Koto Kampung Dalam", 
+            "V Koto Timur", "VII Koto Sungai Sarik", "2x11 Enam Lingkung", "2x11 Kayu Tanam"
+        ],
+        "Kabupaten Pasaman": [
+            "Bonjol", "Dua Koto", "Lubuk Sikaping", "Panti", "Mapat Tunggul", 
+            "Mapat Tunggul Selatan", "Padang Gelugur", "Rao", "Rao Selatan", "Rao Utara", 
+            "Simpang Alahan Mati", "Tigo Nagari"
+        ],
+        "Kabupaten Pasaman Barat": [
+            "Gunung Tuleh", "Kinali", "Koto Balingka", "Lembah Melintang", 
+            "Luhak Nan Duo", "Pasaman", "Ranah Batahan", "Sasak Ranah Pesisir", 
+            "Sungai Aur", "Talamau"
+        ],
+        "Kabupaten Pesisir Selatan": [
+            "Basa Ampek Balai Tapan", "Batang Kapas", "Bayang", "IV Jurai", "IV Nagari Bayang Utara", 
+            "Koto XI Tarusan", "Lengayang", "Linggo Sari Baganti", "Pancung Soal", "Airoura",
+            "Ranah Ampek Hulu Tapan", "Ranah Pesisir", "Silaut", "Sutera", "Lunang"
+        ],
+        "Kabupaten Sijunjung": [
+            "IV Nagari", "Kamang Baru", "Koto VII", "Kupitan", "Lubuk Tarok", 
+            "Sijunjung", "Sumpur Kudus", "Tanjung Gadang"
+        ],
+        "Kabupaten Solok": [
+            "IX Koto Sungai Lasi", "Bukit Sundi", "Danau Kembar", "Gunung Talang", 
+            "Hiliran Gumanti", "Junjung Sirih", "Kubung", "Lembah Gumanti", 
+            "Lembang Jaya", "Pantai Cermin", "Payung Sekaki", "Tigo Lurah", "X Koto Diatas", "X Koto Singkarak"
+        ],
+        "Kabupaten Solok Selatan": [
+            "Koto Parik Gadang Diateh", "Pauh Duo", "Sangir", "Sangir Balai Janggo", 
+            "Sangir Batang Hari", "Sangir Jujuan", "Sungai Pagu"
+        ],
+        "Kabupaten Tanah Datar": [
+            "Batipuh", "Batipuh Selatan", "Lima Kaum", "Lintau Buo", "Lintau Buo Utara", 
+            "Padang Ganting", "Pariangan", "Rambatan", "Salimpaung", "Sepuluh Koto", 
+            "Sungai Tarab", "Sungayang", "Tanjung Baru", "Tanjung Emas"
+        ],
+        "Kota Bukittinggi": [
+            "Aur Birugo Tigo Baleh", "Guguk Panjang", "Mandiangin Koto Selayan"
+        ],
+        "Kota Padang": [
+            "Bungus Teluk Kabung", "Koto Tangah", "Kuranji", "Lubuk Begalung", 
+            "Lubuk Kilangan", "Nanggalo", "Padang Barat", "Padang Selatan", 
+            "Padang Timur", "Padang Utara", "Pauh"
+        ],
+        "Kota Padang Panjang": [
+            "Padang Panjang Barat", "Padang Panjang Timur"
+        ],
+        "Kota Pariaman": [
+            "Pariaman Selatan", "Pariaman Tengah", "Pariaman Timur", "Pariaman Utara"
+        ],
+        "Kota Payakumbuh": [
+            "Lamposi Tigo Nagari", "Payakumbuh Barat", "Payakumbuh Selatan", 
+            "Payakumbuh Timur", "Payakumbuh Utara"
+        ],
+        "Kota Sawah Lunto": [
+            "Barangin", "Lembah Segar", "Silungkang", "Talawi"
+        ],
+        "Kota solok": [
+            "Lubuk Sikarah", "Tanjung Harapan"
+        ]
+    },
+    "Riau": {
+        "Kabupaten Bengkalis": [],
+        "Kabupaten Indragiri Hilir": [],
+        "Kabupaten Indragiri Hulu": [],
+        "Kabupaten Kampar": [],
+        "Kabupaten Kepulauan Meranti": [],
+        "Kabupaten Kuantan Singingi": [],
+        "Kabupaten Pelalawan": [],
+        "Kabupaten Rokan Hilir": [],
+        "Kabupaten Rokan Hulu": [],
+        "Kabupaten Siak": [],
+        "Kota Dumai": [],
+        "Kota Pekanbaru": []
+    },
+    "Kepulauan Riau": {
+        "Kabupaten Bintan": [],
+        "Kabupaten Karimun": [],
+        "Kabupaten Kepulauan Anambas": [],
+        "Kabupaten Lingga": [],
+        "Kabupaten Natuna": [],
+        "Kota Batam": [],
+        "Kota Tanjung Pinang": []
+    },
+    "Sumatera Selatan": {
+        "Kabupaten Banyuasin": [],
+        "Kabupaten Empat Lawang": [],
+        "Kabupaten Lahat": [],
+        "Kabupaten Muara Enim": [],
+        "Kabupaten Musi Banyuasin": [],
+        "Kabupaten Musi Rawas": [],
+        "Kabupaten Musi Rawas Utara": [],
+        "Kabupaten Ogan Ilir": [],
+        "Kabupaten Ogan Komering Ilir": [],
+        "Kabupaten Ogan Komering Ulu": [],
+        "Kabupaten Ogan Komering Ulu Selatan": [],
+        "Kabupaten Ogan Komering Ulu Timur": [],
+        "Kabupaten Penukal Abab Lematang Ilir": [],
+        "Kota Lubuk Linggau": [],
+        "Kota Pagar Alam": [],
+        "Kota Palembang": [],
+        "Kota Prabumulih": []
+    },
+    "Bangka Belitung": {
+        "Kabupaten Bangka": [],
+        "Kabupaten Bangka Barat": [],
+        "Kabupaten Bangka Selatan": [],
+        "Kabupaten Bangka Tengah": [],
+        "Kabupaten Belitung": [],
+        "Kabupaten Belitung Timur": [],
+        "Kota Pangkal Pinang": []
+    },
+    "Bengkulu": {
+        "Kabupaten Bengkulu Selatan": [],
+        "Kabupaten Bengkulu Tengah": [],
+        "Kabupaten Bengkulu Utara": [],
+        "Kabupaten Kaur": [],
+        "Kabupaten Kepahiang": [],
+        "Kabupaten Lebong": [],
+        "Kabupaten Mukomuko": [],
+        "Kabupaten Rejang Lebong": [],
+        "Kabupaten Seluma": [],
+        "Kota Bengkulu": []
+    },
+    "Lampung": {
+        "Kabupaten Lampung Barat": [],
+        "Kabupaten Lampung Selatan": [],
+        "Kabupaten Lampung Tengah": [],
+        "Kabupaten Lampung Timur": [],
+        "Kabupaten Lampung Utara": [],
+        "Kabupaten Mesuji": [],
+        "Kabupaten Pesawaran": [],
+        "Kabupaten Pesisir Barat": [],
+        "Kabupaten Pringsewu": [],
+        "Kabupaten Tanggamus": [],
+        "Kabupaten Tulang Bawang": [],
+        "Kabupaten Tulang Bawang Barat": [],
+        "Kabupaten Way Kanan": [],
+        "Kota Bandar Lampung": [],
+        "Kota Metro": []
+    },
+    "DKI Jakarta": {
+        "Kabupaten Kepulauan Seribu": [],
+        "Kota Jakarta Pusat": [],
+        "Kota Jakarta Utara": [],
+        "Kota Jakarta Barat": [],
+        "Kota Jakarta Selatan": [],
+        "Kota Jakarta Timur": []
+    },
+    "Jawa Barat": {
+        "Kabupaten Bandung": [],
+        "Kabupaten Bandung Barat": [],
+        "Kabupaten Bekasi": [],
+        "Kabupaten Bogor": [],
+        "Kabupaten Ciamis": [],
+        "Kabupaten Cianjur": [],
+        "Kabupaten Cirebon": [],
+        "Kabupaten Garut": [],
+        "Kabupaten Indramayu": [],
+        "Kabupaten Karawang": [],
+        "Kabupaten Kuningan": [],
+        "Kabupaten Majalengka": [],
+        "Kabupaten Pangandaran": [],
+        "Kabupaten Purwakarta": [],
+        "Kabupaten Subang": [],
+        "Kabupaten Sukabumi": [],
+        "Kabupaten Sumedang": [],
+        "Kabupaten Tasikmalaya": [],
+        "Kota Bandung": [],
+        "Kota Banjar": [],
+        "Kota Bekasi": [],
+        "Kota Bogor": [],
+        "Kota Cimahi": [],
+        "Kota Cirebon": [],
+        "Kota Depok": [],
+        "Kota Sukabumi": [],
+        "Kota Tasikmalaya": []
+    },
+    "Banten": {
+        "Kabupaten Lebak": [],
+        "Kabupaten Pandeglang": [],
+        "Kabupaten Serang": [],
+        "Kabupaten Tangerang": [],
+        "Kota Cilegon": [],
+        "Kota Serang": [],
+        "Kota Tangerang": [],
+        "Kota Tangerang Selatan": []
+    },
+    "Jawa Tengah": {
+        "Kabupaten Banjarnegara": [],
+        "Kabupaten Banyumas": [],
+        "Kabupaten Batang": [],
+        "Kabupaten Blora": [],
+        "Kabupaten Boyolali": [],
+        "Kabupaten Brebes": [],
+        "Kabupaten Cilacap": [],
+        "Kabupaten Demak": [],
+        "Kabupaten Grobogan": [],
+        "Kabupaten Jepara": [],
+        "Kabupaten Karanganyar": [],
+        "Kabupaten Kebumen": [],
+        "Kabupaten Kendal": [],
+        "Kabupaten Klaten": [],
+        "Kabupaten Kudus": [],
+        "Kabupaten Magelang": [],
+        "Kabupaten Pati": [],
+        "Kabupaten Pekalongan": [],
+        "Kabupaten Pemalang": [],
+        "Kabupaten Purbalingga": [],
+        "Kabupaten Purworejo": [],
+        "Kabupaten Rembang": [],
+        "Kabupaten Semarang": [],
+        "Kabupaten Sragen": [],
+        "Kabupaten Sukoharjo": [],
+        "Kabupaten Tegal": [],
+        "Kabupaten Temanggung": [],
+        "Kabupaten Wonogiri": [],
+        "Kabupaten Wonosobo": [],
+        "Kota Magelang": [],
+        "Kota Pekalongan": [],
+        "Kota Salatiga": [],
+        "Kota Semarang": [],
+        "Kota Surakarta": [],
+        "Kota Tegal": []
+    },
+    "DI Yogyakarta": {
+        "Kabupaten Bantul": [],
+        "Kabupaten Gunungkidul": [],
+        "Kabupaten Kulon Progo": [],
+        "Kabupaten Sleman": [],
+        "Kota Yogyakarta": []
+    },
+    "Jawa Timur": {
+        "Kabupaten Bangkalan": [],
+        "Kabupaten Banyuwangi": [],
+        "Kabupaten Blitar": [],
+        "Kabupaten Bojonegoro": [],
+        "Kabupaten Bondowoso": [],
+        "Kabupaten Gresik": [],
+        "Kabupaten Jember": [],
+        "Kabupaten Jombang": [],
+        "Kabupaten Kediri": [],
+        "Kabupaten Lamongan": [],
+        "Kabupaten Lumajang": [],
+        "Kabupaten Madiun": [],
+        "Kabupaten Magetan": [],
+        "Kabupaten Malang": [],
+        "Kabupaten Mojokerto": [],
+        "Kabupaten Nganjuk": [],
+        "Kabupaten Ngawi": [],
+        "Kabupaten Pacitan": [],
+        "Kabupaten Pamekasan": [],
+        "Kabupaten Pasuruan": [],
+        "Kabupaten Ponorogo": [],
+        "Kabupaten Probolinggo": [],
+        "Kabupaten Sampang": [],
+        "Kabupaten Sidoarjo": [],
+        "Kabupaten Situbondo": [],
+        "Kabupaten Sumenep": [],
+        "Kabupaten Trenggalek": [],
+        "Kabupaten Tuban": [],
+        "Kabupaten Tulungagung": [],
+        "Kota Batu": [],
+        "Kota Blitar": [],
+        "Kota Kediri": [],
+        "Kota Madiun": [],
+        "Kota Malang": [],
+        "Kota Mojokerto": [],
+        "Kota Pasuruan": [],
+        "Kota Probolinggo": [],
+        "Kota Surabaya": []
+    },
+    "Bali": {
+        "Kabupaten Badung": [],
+        "Kabupaten Bangli": [],
+        "Kabupaten Buleleng": [],
+        "Kabupaten Gianyar": [],
+        "Kabupaten Jembrana": [],
+        "Kabupaten Karangasem": [],
+        "Kabupaten Klungkung": [],
+        "Kabupaten Tabanan": [],
+        "Kota Denpasar": []
+    },
+    "Nusa Tenggara Barat": {
+        "Kabupaten Bima": [],
+        "Kabupaten Dompu": [],
+        "Kabupaten Lombok Barat": [],
+        "Kabupaten Lombok Tengah": [],
+        "Kabupaten Lombok Timur": [],
+        "Kabupaten Lombok Utara": [],
+        "Kabupaten Sumbawa": [],
+        "Kabupaten Sumbawa Barat": [],
+        "Kota Bima": [],
+        "Kota Mataram": []
+    },
+    "Nusa Tenggara Timur": {
+        "Kabupaten Alor": [],
+        "Kabupaten Belu": [],
+        "Kabupaten Ende": [],
+        "Kabupaten Flores Timur": [],
+        "Kabupaten Kupang": [],
+        "Kabupaten Lembata": [],
+        "Kabupaten Malaka": [],
+        "Kabupaten Manggarai": [],
+        "Kabupaten Manggarai Barat": [],
+        "Kabupaten Manggarai Timur": [],
+        "Kabupaten Ngada": [],
+        "Kabupaten Nagekeo": [],
+        "Kabupaten Rote Ndao": [],
+        "Kabupaten Sabu Raijua": [],
+        "Kabupaten Sikka": [],
+        "Kabupaten Sumba Barat": [],
+        "Kabupaten Sumba Barat Daya": [],
+        "Kabupaten Sumba Tengah": [],
+        "Kabupaten Sumba Timur": [],
+        "Kabupaten Timor Tengah Selatan": [],
+        "Kabupaten Timor Tengah Utara": [],
+        "Kota Kupang": []
+    },
+    "Kalimantan Barat": {
+        "Kabupaten Bengkayang": [],
+        "Kabupaten Kapuas Hulu": [],
+        "Kabupaten Kayong Utara": [],
+        "Kabupaten Ketapang": [],
+        "Kabupaten Kubu Raya": [],
+        "Kabupaten Landak": [],
+        "Kabupaten Melawi": [],
+        "Kabupaten Mempawah": [],
+        "Kabupaten Sambas": [],
+        "Kabupaten Sanggau": [],
+        "Kabupaten Sekadau": [],
+        "Kabupaten Sintang": [],
+        "Kota Pontianak": [],
+        "Kota Singkawang": []
+    },
+    "Kalimantan Tengah": {
+        "Kabupaten Barito Selatan": [],
+        "Kabupaten Barito Timur": [],
+        "Kabupaten Barito Utara": [],
+        "Kabupaten Gunung Mas": [],
+        "Kabupaten Kapuas": [],
+        "Kabupaten Katingan": [],
+        "Kabupaten Kotawaringin Barat": [],
+        "Kabupaten Kotawaringin Timur": [],
+        "Kabupaten Lamandau": [],
+        "Kabupaten Murung Raya": [],
+        "Kabupaten Pulang Pisau": [],
+        "Kabupaten Seruyan": [],
+        "Kabupaten Sukamara": [],
+        "Kota Palangka Raya": []
+    },
+    "Kalimantan Selatan": {
+         "Kabupaten Balangan": [],
+        "Kabupaten Banjar": [],
+        "Kabupaten Barito Kuala": [],
+        "Kabupaten Hulu Sungai Selatan": [],
+        "Kabupaten Hulu Sungai Tengah": [],
+        "Kabupaten Hulu Sungai Utara": [],
+        "Kabupaten Kotabaru": [],
+        "Kabupaten Tabalong": [],
+        "Kabupaten Tanah Bumbu": [],
+        "Kabupaten Tanah Laut": [],
+        "Kabupaten Tapin": [],
+        "Kota Banjarbaru": [],
+        "Kota Banjarmasin": []
+    },
+    "Kalimantan Timur": {
+        "Kabupaten Berau": [],
+        "Kabupaten Kutai Barat": [],
+        "Kabupaten Kutai Kartanegara": [],
+        "Kabupaten Kutai Timur": [],
+        "Kabupaten Mahakam Ulu": [],
+        "Kabupaten Paser": [],
+        "Kabupaten Penajam Paser Utara": [],
+        "Kota Balikpapan": [],
+        "Kota Bontang": [],
+        "Kota Samarinda": []
+    },
+    "Kalimantan Utara": {
+        "Kabupaten Bulungan": [],
+        "Kabupaten Malinau": [],
+        "Kabupaten Nunukan": [],
+        "Kabupaten Tana Tidung": [],
+        "Kota Tarakan": []
+    },
+    "Sulawesi Utara": {
+        "Kabupaten Bolaang Mongondow": [],
+        "Kabupaten Bolaang Mongondow Selatan": [],
+        "Kabupaten Bolaang Mongondow Timur": [],
+        "Kabupaten Bolaang Mongondow Utara": [],
+        "Kabupaten Kepulauan Sangihe": [],
+        "Kabupaten Kepulauan Siau Tagulandang Biaro": [],
+        "Kabupaten Kepulauan Talaud": [],
+        "Kabupaten Minahasa": [],
+        "Kabupaten Minahasa Selatan": [],
+        "Kabupaten Minahasa Tenggara": [],
+        "Kabupaten Minahasa Utara": [],
+        "Kota Bitung": [],
+        "Kota Kotamobagu": [],
+        "Kota Manado": [],
+        "Kota Tomohon": []
+    },
+    "Gorontalo": {
+        "Kabupaten Banggai": [],
+        "Kabupaten Banggai Kepulauan": [],
+        "Kabupaten Banggai Laut": [],
+        "Kabupaten Buol": [],
+        "Kabupaten Donggala": [],
+        "Kabupaten Morowali": [],
+        "Kabupaten Morowali Utara": [],
+        "Kabupaten Parigi Moutong": [],
+        "Kabupaten Poso": [],
+        "Kabupaten Sigi": [],
+        "Kabupaten Tojo Una-Una": [],
+        "Kabupaten Tolitoli": [],
+        "Kota Palu": []
+    },
+    "Sulawesi Tengah": {
+        "Kabupaten Banggai": [],
+        "Kabupaten Banggai Kepulauan": [],
+        "Kabupaten Banggai Laut": [],
+        "Kabupaten Buol": [],
+        "Kabupaten Donggala": [],
+        "Kabupaten Morowali": [],
+        "Kabupaten Morowali Utara": [],
+        "Kabupaten Parigi Moutong": [],
+        "Kabupaten Poso": [],
+        "Kabupaten Sigi": [],
+        "Kabupaten Tojo Una-Una": [],
+        "Kabupaten Tolitoli": [],
+        "Kota Palu": []
+    },
+    "Sulawesi Barat": {
+        "Kabupaten Majene": [],
+        "Kabupaten Mamasa": [],
+        "Kabupaten Mamuju": [],
+        "Kabupaten Mamuju Tengah": [],
+        "Kabupaten Pasangkayu": [],
+        "Kabupaten Polewali Mandar": []
+    },
+    "Sulawesi Selatan": {
+        "Kabupaten Bantaeng": [],
+        "Kabupaten Barru": [],
+        "Kabupaten Bone": [],
+        "Kabupaten Bulukumba": [],
+        "Kabupaten Enrekang": [],
+        "Kabupaten Gowa": [],
+        "Kabupaten Jeneponto": [],
+        "Kabupaten Kepulauan Selayar": [],
+        "Kabupaten Luwu": [],
+        "Kabupaten Luwu Timur": [],
+        "Kabupaten Luwu Utara": [],
+        "Kabupaten Maros": [],
+        "Kabupaten Pangkajene dan Kepulauan": [],
+        "Kabupaten Pinrang": [],
+        "Kabupaten Sidenreng Rappang": [],
+        "Kabupaten Sinjai": [],
+        "Kabupaten Soppeng": [],
+        "Kabupaten Takalar": [],
+        "Kabupaten Tana Toraja": [],
+        "Kabupaten Toraja Utara": [],
+        "Kabupaten Wajo": [],
+        "Kota Makassar": [],
+        "Kota Palopo": [],
+        "Kota Parepare": []
+    },
+    "Sulawesi Tenggara": {
+        "Kabupaten Bombana": [],
+        "Kabupaten Buton": [],
+        "Kabupaten Buton Selatan": [],
+        "Kabupaten Buton Tengah": [],
+        "Kabupaten Buton Utara": [],
+        "Kabupaten Kolaka": [],
+        "Kabupaten Kolaka Timur": [],
+        "Kabupaten Kolaka Utara": [],
+        "Kabupaten Konawe": [],
+        "Kabupaten Konawe Kepulauan": [],
+        "Kabupaten Konawe Selatan": [],
+        "Kabupaten Konawe Utara": [],
+        "Kabupaten Muna": [],
+        "Kabupaten Muna Barat": [],
+        "Kabupaten Wakatobi": [],
+        "Kota Baubau": [],
+        "Kota Kendari": []
+    },
+    "Maluku": {
+        "Kabupaten Buru": [],
+        "Kabupaten Buru Selatan": [],
+        "Kabupaten Kepulauan Aru": [],
+        "Kabupaten Maluku Barat Daya": [],
+        "Kabupaten Maluku Tengah": [],
+        "Kabupaten Maluku Tenggara": [],
+        "Kabupaten Seram Bagian Barat": [],
+        "Kabupaten Seram Bagian Timur": [],
+        "Kota Ambon": [],
+        "Kota Tual": []
+    },
+    "Maluku Utara": {
+        "Kabupaten Halmahera Barat": [],
+        "Kabupaten Halmahera Tengah": [],
+        "Kabupaten Halmahera Timur": [],
+        "Kabupaten Halmahera Selatan": [],
+        "Kabupaten Halmahera Utara": [],
+        "Kabupaten Kepulauan Sula": [],
+        "Kabupaten Pulau Morotai": [],
+        "Kabupaten Pulau Taliabu": [],
+        "Kota Ternate": [],
+        "Kota Tidore Kepulauan": []
+    },
+    "Papua": {
+        "Kabupaten Biak Numfor": [],
+        "Kabupaten Jayapura": [],
+        "Kabupaten Keerom": [],
+        "Kabupaten Kepulauan Yapen": [],
+        "Kabupaten Mamberamo Raya": [],
+        "Kabupaten Sarmi": [],
+        "Kabupaten Supiori": [],
+        "Kota Jayapura": []
+    },
+    "Papua Barat": {
+        "Kabupaten Fakfak": [],
+        "Kabupaten Kaimana": [],
+        "Kabupaten Manokwari": [],
+        "Kabupaten Manokwari Selatan": [],
+        "Kabupaten Pegunungan Arfak": [],
+        "Kabupaten Teluk Bintuni": [],
+        "Kabupaten Teluk Wondama": [],
+        "Kota Sorong": []
+    },
+    "Papua Selatan": {
+        "Kabupaten Asmat": [],
+        "Kabupaten Boven Digoel": [],
+        "Kabupaten Mappi": [],
+        "Kabupaten Merauke": []
+    },
+    "Papua Tengah": {
+        "Kabupaten Deiyai": [],
+        "Kabupaten Dogiyai": [],
+        "Kabupaten Intan Jaya": [],
+        "Kabupaten Mimika": [],
+        "Kabupaten Nabire": [],
+        "Kabupaten Paniai": []
+    },
+    "Papua Pegunungan": {
+        "Kabupaten Jayawijaya": [],
+        "Kabupaten Lanny Jaya": [],
+        "Kabupaten Mamberamo Tengah": [],
+        "Kabupaten Nduga": [],
+        "Kabupaten Pegunungan Bintang": [],
+        "Kabupaten Tolikara": [],
+        "Kabupaten Yahukimo": [],
+        "Kabupaten Yalimo": []
+    },
+    "Papua Barat Daya": {
+        "Kabupaten Maybrat": [],
+        "Kabupaten Raja Ampat": [],
+        "Kabupaten Sorong": [],
+        "Kabupaten Sorong Selatan": [],
+        "Kabupaten Tambrauw": [],
+        "Kota Sorong": []
+    }
+}

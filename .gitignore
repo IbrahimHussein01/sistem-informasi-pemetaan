@@ -1,0 +1,18 @@
+# === Konfigurasi Rahasia ===
+config/koneksi.php
+
+# === Upload User ===
+uploads/
+
+# === Database Dump ===
+*.sql
+
+# === Environment & Local Config ===
+.env
+.env.*
+
+# === Editor & OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

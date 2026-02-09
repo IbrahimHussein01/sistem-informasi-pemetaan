@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    overflow: hidden;
+}
+#main2 {
+    transition: margin-left .5s;
+    background-color: #f1f4f5;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-top: 50px;
+    height: 100%;
+    max-width: 100%;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    display: flex;
+    padding: 10px;
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    flex-shrink: 0;
+    background: rgb(255, 255, 255);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 0.4rem 0.4rem 1rem #ddd;
+    box-shadow: 0.4rem 0.4rem 1rem #ddd;
+    z-index: 99999;
+    align-items: center;
+    color: #414a4c;
+}
+.navbar-brand {
+    font-size: large;
+}
+.vr {
+    border-left: 2px solid #ccc;
+    height: 35px;
+}
+span, i {
+    padding: 10px;
+    font-size: 12px;
+    
+}
+/* Sidebar */
+.sidenav {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #414a4c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    z-index: 10;
+}
+.sidenav h6 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sidenav .icon-a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+.sidenav .icon-a i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.sidenav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.sidenav .mt-auto {
+    margin-top: auto;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/*bo*/
+
+/* Container */
+.container-box1, .container-box2, .container-box3 {
+    width: 250px;
+    height: 110px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin: 15px;
+    margin-left: 23px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Efek hover */
+.container-box1:hover, .container-box2:hover, .container-box3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Border kiri berwarna */
+.container-box1 {
+    border-left: 6px solid #3b69da;
+}
+
+.container-box2 {
+    border-left: 6px solid #28a745;
+}
+
+.container-box3 {
+    border-left: 6px solid #dc3545;
+}
+
+/* Wrapper angka & ikon */
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+/* Styling angka (diletakkan di sudut kiri atas) */
+.container-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+}
+
+
+/* Styling tulisan di bawah angka */
+.container-box1 h4, .container-box2 h4, .container-box3 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 15px;
+}
+/* Styling ikon agar berada di tengah lingkaran */
+.container-box1 i,
+.container-box2 i,
+.container-box3 i {
+    position: absolute;
+    top: 8px; /* Geser ke atas agar di tengah lingkaran */
+    right: 10px; /* Geser ke kanan */
+    font-size: 35px;
+    transform: scale(0.9);
+    opacity: 0.7; /* Biar ikon lebih menyatu dengan lingkaran */
+}
+
+
+/* Efek lingkaran di kanan atas */
+.container-box1::before,
+.container-box2::before,
+.container-box3::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 110px;
+    height: 110px;
+    background-color: rgba(59, 105, 218, 0.2); /* Warna sesuai border kiri */
+    border-radius: 50%;
+}
+
+/* Sesuaikan warna lingkaran */
+.container-box2::before {
+    background-color: rgba(40, 167, 69, 0.2);
+}
+
+.container-box3::before {
+    background-color: rgba(220, 53, 69, 0.2);
+}
+
+/* Tambahkan position: relative untuk parent agar efek bekerja */
+.container-box1, .container-box2, .container-box3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.row.mb-1 {
+    display: flex;
+    gap: 1px; /* Menyesuaikan jarak antar elemen */
+    justify-content: flex-start; /* Membuat elemen lebih ke kiri */
+}
+#pieChart {
+    width: 300px !important;
+    height: 300px !important;
+}
+.parent-container-pie {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    overflow: visible;
+}
+.parent-container-bar {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.container-pie {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+.container-bar {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-up-bar {
+    background-color: #f7f9fb;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.container-up-bar h4 {
+    color:#2f4f4f;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+}
+.container-up-pie {
+    background-color: #f7f9fb;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.container-up-pie h4 {
+    color: #2f4f4f;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+}
+
+
+/* Sidebar Collapse Logic */
+.sidenav.collapsed {
+    width: 60px;
+}
+
+.sidenav.collapsed h6,
+.sidenav.collapsed .icon-a span {
+    display: none;
+}
+
+#main2.collapsed {
+    margin-left: 60px;
+}
+
+.navbar {
+    left: 220px;
+    width: calc(100% - 220px);
+}
+
+.navbar.collapsed {
+    left: 60px;
+    width: calc(100% - 60px);
+}
+
+@media (max-width: 768px) {
+    .sidenav {
+        width: 60px;
+    }
+
+    .sidenav .icon-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .sidenav .icon-a i {
+        margin-right: 0;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sidenav h6,
+    .sidenav .icon-a span {
+        display: none;
+    }
+
+    #main2 {
+        margin-left: 60px;
+    }
+
+    .navbar {
+        left: 60px;
+        width: calc(100% - 60px);
+    }
+}
+
+
+#sidebarToggle {
+    background: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.5); /* warna ikon agak pudar */
+    transition: color 0.3s, background 0.3s;
+}
+
+#sidebarToggle:hover {
+    color: #000; /* lebih gelap saat hover */
+    background: rgba(0, 0, 0, 0.05); /* efek latar saat hover */
+    border-radius: 4px;
+}
+
+/* Saat collapsed (responif), pusatkan ikon */
+.sidenav.collapsed .icon-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0; /* sesuaikan jika perlu */
+}
+
+.sidenav.collapsed .icon-a i {
+    margin: 0; /* hilangkan margin kanan default */
+    font-size: 18px; /* pastikan ukurannya pas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .sidenav {
+        width: 60px;
+    }
+
+    .sidenav.collapsed {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .sidenav .icon-a {
+        justify-content: center;
+        padding: 12px 0;
+    }
+
+    .sidenav .icon-a i {
+        margin: 0;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sidenav h6,
+    .sidenav .icon-a span {
+        display: none;
+    }
+
+    #main2 {
+        margin-left: 60px;
+        transition: margin-left 0.3s ease;
+    }
+
+    .navbar {
+        left: 60px;
+        width: calc(100% - 60px);
+    }
+
+    .navbar.collapsed {
+        left: 0;
+        width: 100%;
+    }
+
+    #main2.collapsed {
+        margin-left: 0;
+    }
+
+    /* Kontainer box jadi kecil dan rapat */
+    .container-box1, .container-box2, .container-box3 {
+        width: 100%;
+        margin: 10px ;
+        height: auto;
+        padding: 10px;
+    }
+
+    .container-content h2 {
+        font-size: 22px;
+    }
+
+    .container-box1 i,
+    .container-box2 i,
+    .container-box3 i {
+        font-size: 28px;
+        top: 10px;
+        right: 10px;
+    }
+
+    /* Layout chart vertikal */
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .parent-container-pie,
+    .parent-container-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pieChart {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 300px;
+    }
+    #currentDateTime {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #pieChart {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 300px;
+    }
+}

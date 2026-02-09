@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    overflow: hidden;
+}
+#main2{
+    transition: margin-left .5s;
+    background-color: #f1f4f5;
+    margin-left: 220px;
+    height: 100%;
+    max-width: 100%; 
+    height: calc(100vh - 50px); 
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Sidebar */
+.sidenav {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #414a4c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; 
+    z-index: 10;
+}
+
+.sidenav h6 {
+    margin-top: 10px;
+    font-size: 14px; 
+    font-weight: 600; 
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.sidenav .icon-a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding menu */
+    display: block;
+    font-size: 13px; /* Ukuran font menu diperkecil */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+.sidenav .icon-a i {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    font-size: 14px; /* Ukuran ikon */
+}
+
+.sidenav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px; 
+    padding-left: 20px; 
+}
+
+.sidenav .mt-auto {
+    margin-top: auto; 
+    padding: 15px 0; 
+    text-align: center;
+    font-size: 12px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+} 
+.row-button {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.page-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #414a4c;
+    margin: 0;
+}
+
+.btn-back {
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+}
+/* tabel */
+.parent-container-de {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    margin: 0 0 0 15px;
+}
+.container-de {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: visible;
+    text-align: left;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-up-de {
+    background-color: #f7f9fb;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.container-up-de h4 {
+    color: #414a4c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.parent-container-image{
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+}
+.container-up-image{
+    background-color:#f7f9fb; 
+    border-radius: 5px 5px 0 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    padding: 5px; 
+    border-bottom: 1px solid #ddd; 
+}
+.container-up-image h4{
+    color: #414a4c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    font-size: 16px;
+    text-align: left;
+    margin: 0; 
+}
+.container-preview h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.container-preview {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border-radius: 0 0 5px 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#preview {
+    max-width: 100%;
+    height: auto;
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+.form-row {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: -5px; 
+}
+
+.label {
+    flex: 0 0 130px; 
+    text-align: left; 
+    font-weight: 400; 
+    font-size: 14px;
+}
+
+.colon {
+    flex: 0 0 auto; 
+    padding-right: 0px; 
+    margin-left: -50px;
+}
+
+.value {
+    flex: 1; 
+    text-align: left; 
+    font-size: 14px;
+}
+.btn-custom {
+    margin-top: 8px;
+    width: 150px;
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: #3b69da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-custom:hover {
+    background-color: #305ac1;
+}

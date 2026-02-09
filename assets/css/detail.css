@@ -1,0 +1,507 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav i {
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* Hover underline animation */
+.navbar-nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.navbar-nav a:hover::after {
+    width: 50%;
+}
+
+.navbar-nav a:hover {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Active menu */
+.navbar-nav a.active {
+    font-weight: 700;
+    color: #007bff;
+}
+
+.btn-login {
+    margin-left: auto;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 2500;
+    background-color: white;
+}
+
+/* Sembunyikan saat scroll ke bawah */
+.navbar.hide {
+    transform: translateY(-100%);
+}
+
+/* Hover zone untuk munculkan navbar saat diarahkan ke atas */
+.hover-zone-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 2000;
+}
+
+
+.container-main{
+    margin: 80px 30px 30px 30px;
+}
+.page-header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.page-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+    
+.detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+    
+@media (max-width: 768px) {
+    .detail-container {
+        grid-template-columns: 1fr;
+    }
+}
+    
+.detail-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    height: fit-content;
+    width: 600px;
+}
+    
+.detail-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex; /* Menggunakan flexbox untuk mengatur tata letak */
+    align-items: flex-start; /* Agar teks sejajar di bagian atas */
+    margin-bottom: -5px; /* Jarak antar baris detail produk */
+}
+.label {
+    flex: 0 0 130px; /* Lebar tetap untuk label */
+    text-align: left; /* Rata kiri untuk label */
+    font-weight: 400; /* Tebalkan label */
+    font-size: 14px;
+    padding: 8px 2px 8px 0; 
+}
+
+.colon {
+    flex: 0 0 auto; /* Lebar sesuai konten (titik dua) */
+    padding-right: 0px; /* Jarak antara titik dua dan nilai */
+    margin-left: -5px;
+    padding: 8px 5px;
+}
+
+.value {
+    flex: 1; /* Nilai mengisi sisa ruang */
+    text-align: left; /* Rata kiri untuk nilai */
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+.detail-info p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.detail-info strong {
+    font-weight: 600;
+    color: #444;
+}
+
+.container-map{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    height: fit-content;
+    width: 660px;
+}
+#map {
+    width: 100%;
+    height: 410px;
+    border-radius: 5px;
+}
+.btn-map{
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+.products-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%; /* Lebar penuh */
+    margin-top: 30px; /* Jarak dari container atas */
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 card per baris */
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Agar tinggi card seragam */
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-body {
+    padding: 15px;
+    flex-grow: 1; /* Agar konten mengisi sisa space */
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.product-text {
+    display: flex;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    align-items: flex-start; /* Ini yang diubah */
+}
+
+.product-text strong {
+    width: 80px;
+    flex-shrink: 0;
+    font-weight: 600;
+    line-height: 1.4; /* Menyamakan tinggi garis */
+    margin-right: -10px;
+}
+
+.product-text .colon {
+    width: 10px;
+    flex-shrink: 0;
+    padding-right: 5px;
+    line-height: 0.2; /* Kurangi nilai ini untuk menaikkan */
+    display: inline-block;
+}
+
+.product-text .value {
+    flex-grow: 1;
+    word-break: break-word;
+    line-height: 1.4; /* Menyamakan tinggi garis */
+    margin-top: 0; /* Pastikan tidak ada margin atas */
+    padding-top: 0; /* Pastikan tidak ada padding atas */
+    margin-left: 5px;
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.no-products {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+.sertifikat-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.sertifikat-link:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+/* TOGGLE DEFAULT - TIDAK TAMPIL KECUALI DI LAYAR KECIL */
+.navbar-toggle {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 3000;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.navbar-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .navbar-brand,
+    .navbar-collapse,
+    .btn-login {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.show {
+        display: flex !important;
+        flex-direction: column;
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+        padding: 15px;
+        z-index: 2999;
+    }
+
+    .navbar-collapse.show .nav-link {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive: max-width 992px (tablet) dan 768px (mobile) */
+@media (max-width: 992px) {
+    .container-main {
+        margin: 20px 15px;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+
+    .detail-container {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-card,
+    .container-map {
+        width: 100%;
+        padding: 20px;
+    }
+    .detail-card {
+        gap: 6px;        /* perkecil jarak antar elemen */
+        padding: 10px;    /* padding lebih kecil supaya pas di layar kecil */
+        max-width: 100%; /* lebar penuh di layar kecil */
+    }
+
+    #map {
+        height: 350px;
+    }
+}
+
+@media (max-width: 200px) {
+    .page-title {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn-secondary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr; /* 1 kolom saat mobile */
+    }
+
+    .product-title {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .product-body {
+        padding: 10px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .label,
+    .colon,
+    .value {
+        padding: 2px 0;
+    }
+
+    .label {
+        font-weight: 500;
+    }
+
+    .product-text {
+        flex-direction: column;
+    }
+
+    .product-text strong,
+    .product-text .colon,
+    .product-text .value {
+        width: 100%;
+        display: block;
+    }
+
+    .product-text .value {
+        margin-left: 0;
+    }
+    .btn,
+    button {
+        width: 100%;
+    }
+}
+
+.modal-image {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content-image {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-image {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 100001;
+}
