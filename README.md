@@ -16,14 +16,14 @@ Sistem informasi pemetaan berbasis web menggunakan **Leaflet.js** untuk menampil
 - JavaScript
 - HTML & CSS
 
-## ⚙️ Instalasi
+## Instalasi
 1. Clone repository
 2. Import database (sesuaikan struktur)
 3. Rename `config/koneksi.example.php` → `koneksi.php`
 4. Sesuaikan konfigurasi database
 5. Jalankan di server lokal (XAMPP/Laragon)
 
-## 📌 Catatan
+## Catatan
 Project ini dibuat untuk keperluan pembelajaran dan pengembangan sistem informasi geografis.
 
 ---
