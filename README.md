@@ -1,15 +1,15 @@
-# 🌍 Sistem Informasi Pemetaan Berbasis Web
+# Sistem Informasi Pemetaan Berbasis Web
 
 Sistem informasi pemetaan berbasis web menggunakan **Leaflet.js** untuk menampilkan lokasi dan informasi geografis secara interaktif.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 - Peta interaktif (Leaflet.js)
 - Marker lokasi dinamis
 - Detail informasi lokasi
 - Sistem admin & user
 - Manajemen data berbasis PHP & MySQL
 
-## 🛠 Teknologi
+## Teknologi
 - PHP Native
 - MySQL
 - Leaflet.js
